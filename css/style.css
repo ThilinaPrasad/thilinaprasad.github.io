@@ -330,7 +330,7 @@ ______________________________________________________________
     background-color: lightgray;
 }
 
-#level_1,#level_2,#level_3,#level_4,#level_5,#level_6,#level_7,#level_8{
+.level{
     height: 100%;
     background-color: #3fb233;
 }
@@ -360,11 +360,19 @@ ______________________________________________________________
 }
 
 #level_7{
-    width: 5%;
+    width: 60%;
 }
 
 #level_8{
-    width: 65%;
+    width: 85%;
+}
+
+#level_9{
+    width: 35%;
+}
+
+#level_10{
+    width: 40%;
 }
 /*                                                    WORK
 __________________________________________________________
