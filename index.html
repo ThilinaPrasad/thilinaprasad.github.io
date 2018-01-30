@@ -466,7 +466,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script>
 	$(document).ready(function(){
 		$("#submit").click(function(){
-    $.post("phpmail.php",
+    $.post("https://uomleos.000webhostapp.com/phpmail.php",
     {
         name: $("#name").val(),
         email: $("#email").val(),
@@ -474,12 +474,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		message: $("#message").val()
     },
     function(data, status){
-		alert(data);
-		if(data.toString().trim()=="Done"){
+		$("#alert").html("<lable style='color:rgb(20, 187, 62); font-weight:600;'>Message Successfully Sent!</lable>");
+		/*if(status=="success"){
 		$("#alert").html("<lable style='color:rgb(20, 187, 62); font-weight:600;'>Message Successfully Sent!</lable>");
 	}else{
 		$("#alert").html("<lable style='color:rgb(192, 26, 26); font-weight:600;'>Error Happened Please try again!</lable>");
-	}
+	}*/
         //alert("Data: " + data + "\nStatus: " + status);
     });
 });
