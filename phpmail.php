@@ -15,7 +15,7 @@ function sendMail($email,$subject, $bodyContent)
     $mail->Host = 'mail.uomleos.org';                    // Specify main and backup SMTP servers
     $mail->SMTPAuth = true;                            // Enable SMTP authentication
     $mail->Username = 'thilina.personalweb@gmail.com';          // SMTP username
-    $mail->Password = '0912267288@DtPj';            // SMTP password
+    $mail->Password = '<Password Goes Here>';            // SMTP password
     $mail->SMTPSecure = 'ssl';                         // Enable TLS encryption, `ssl` also accepted
     $mail->Port = 465;                                 // TCP port to connect to
 
