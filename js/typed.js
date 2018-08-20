@@ -78,7 +78,7 @@
 		this.stopNum = 0;
 
 		// Looping logic
-		this.loop = this.options.loop;
+		this.loop = true;
 		this.loopCount = this.options.loopCount;
 		this.curLoop = 0;
 
