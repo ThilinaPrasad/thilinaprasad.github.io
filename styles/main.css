@@ -7285,4 +7285,7 @@ a.credit {
   .nav-brand-name{
     display: none;
   }
+  .mobile-hide{
+      display: none;
+  }
 }
