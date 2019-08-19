@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1e8d254-d072-446d-a2aa-c40d32df47b3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/images/mas-map.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/photography-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/photography-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/photography-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/photography-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/photography-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/photography-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/photography-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/photography-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/project-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/project-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/project-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/project-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,6 +26,7 @@
   </component>
   <component name="ProjectId" id="1Pap172TmaBsu3awJhhIyG0h0p9" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -64,7 +75,8 @@
       <option name="presentableId" value="Default" />
       <updated>1566121843838</updated>
       <workItem from="1566121845100" duration="10348000" />
-      <workItem from="1566134968263" duration="875000" />
+      <workItem from="1566134968263" duration="2287000" />
+      <workItem from="1566208552494" duration="5736000" />
     </task>
     <servers />
   </component>
@@ -76,7 +88,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

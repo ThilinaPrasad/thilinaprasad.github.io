@@ -7289,3 +7289,8 @@ a.credit {
       display: none;
   }
 }
+
+.hover-image{
+  width: 100px;
+  height: 100px;
+}
