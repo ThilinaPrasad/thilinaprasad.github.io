@@ -7294,3 +7294,20 @@ a.credit {
   width: 100px;
   height: 100px;
 }
+
+.graph-before-activity-overview{
+  overflow-x: scroll!important;
+}
+
+.js-calendar-graph-svg{
+  margin: auto;
+}
+
+.contrib-footer{
+  width: 828px!important;
+  margin: auto!important;
+}
+
+.contrib-footer .contrib-legend{
+  padding: 0!important;
+}

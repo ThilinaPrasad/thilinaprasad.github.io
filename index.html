@@ -11,6 +11,7 @@
     <link href="css/aos.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="styles/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css" />
   </head>
   <body id="top">
     <header>
@@ -51,10 +52,12 @@
         <div class="container">
           <div class="button-container">
             <a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.linkedin.com/in/thilinaprasadjayathilaka/" rel="tooltip" title="Found me on LinkedIn"><i class="fa fa-linkedin"></i></a>
-            <a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.facebook.com/thilina.prashad" rel="tooltip" title="Found me on Facebook"><i class="fa fa-facebook"></i></a>
             <a class="btn btn-default btn-round btn-lg btn-icon" href="https://github.com/ThilinaPrasad" rel="tooltip" title="Found me on GitHub"><i class="fa fa-github "></i></a>
+            <a class="btn btn-default btn-round btn-lg btn-icon" href="https://thilinaprasadblog.wordpress.com" rel="tooltip" title="Found me on Wordpress"><i class="fa fa-wordpress"></i></a>
+            <a class="btn btn-default btn-round btn-lg btn-icon mobile-hide" href="https://medium.com/@thilinaprasad.15" rel="tooltip" title="Found me on Medium"><i class="fa fa-medium"></i></a>
+            <a class="btn btn-default btn-round btn-lg btn-icon " href="https://www.facebook.com/thilina.prashad" rel="tooltip" title="Found me on Facebook"><i class="fa fa-facebook"></i></a>
             <a class="btn btn-default btn-round btn-lg btn-icon mobile-hide" href="https://www.instagram.com/_thilinaprasad_/" rel="tooltip" title="Found me on Instagram"><i class="fa fa-instagram"></i></a>
-            <a class="btn btn-default btn-round btn-lg btn-icon" href="https://twitter.com/prashad25" rel="tooltip" title="Found me on Twitter"><i class="fa fa-twitter"></i></a>
+            <a class="btn btn-default btn-round btn-lg btn-icon mobile-hide" href="https://twitter.com/prashad25" rel="tooltip" title="Found me on Twitter"><i class="fa fa-twitter"></i></a>
           </div>
         </div>
       </div>
@@ -316,6 +319,10 @@
                     </figcaption></a>
                 </figure></a></div>
             </div>
+            <div class="h4 text-center mb-4 title w-100">Projects Contributions on Git Hub</div>
+            <div class="calendar" style="width:100%;">           
+            </div>
+
             <a href="#footer" class="w-100 mt-3 smooth-scroll"><h6 class="text-center">View More in my LinkedIn & GitHub</h6></a>
           </div>
         </div>
@@ -686,8 +693,10 @@
     <footer class="footer" id="footer">
       <div class="container text-center">
         <a class="cc-below-social btn btn-link" href="https://www.linkedin.com/in/thilinaprasadjayathilaka/"><i class="fa fa-linkedin fa-2x" aria-hidden="true" rel="tooltip" title="Found me on LinkedIn"></i></a>
-        <a class="cc-below-social btn btn-link" href="https://www.facebook.com/thilina.prashad"><i class="fa fa-facebook fa-2x " aria-hidden="true" rel="tooltip" title="Found me on Facebook"></i></a>
         <a class="cc-below-social btn btn-link" href="https://github.com/ThilinaPrasad"><i class="fa fa-github fa-2x" aria-hidden="true" rel="tooltip" title="Found me on GitHub"></i></a>
+        <a class="cc-below-social btn btn-link" href="https://thilinaprasadblog.wordpress.com/"><i class="fa fa-wordpress fa-2x " aria-hidden="true" rel="tooltip" title="Found me on Wordpress"></i></a>
+        <a class="cc-below-social btn btn-link" href="https://medium.com/@thilinaprasad.15"><i class="fa fa-medium fa-2x " aria-hidden="true" rel="tooltip" title="Found me on Medium"></i></a>
+        <a class="cc-below-social btn btn-link" href="https://www.facebook.com/thilina.prashad"><i class="fa fa-facebook fa-2x " aria-hidden="true" rel="tooltip" title="Found me on Facebook"></i></a>
         <a class="cc-below-social btn btn-link" href="https://www.instagram.com/_thilinaprasad_/"><i class="fa fa-instagram fa-2x " aria-hidden="true" rel="tooltip" title="Found me on Instagram"></i></a>
       <a class="cc-below-social btn btn-link " href="https://twitter.com/prashad25"><i class="fa fa-twitter fa-2x " aria-hidden="true" rel="tooltip" title="Found me on Twitter"></i></a>
       </div>
@@ -702,5 +711,10 @@
     <script src="js/now-ui-kit.js?v=1.1.0"></script>
     <script src="js/aos.js"></script>
     <script src="scripts/main.js"></script>
+    <script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"></script>
+
+      <script>
+      GitHubCalendar(".calendar", "ThilinaPrasad");
+  </script>
   </body>
 </html>
