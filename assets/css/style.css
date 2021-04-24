@@ -1169,3 +1169,22 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+.header-button-wrapper {
+  margin-top: 20px;
+}
+
+.header-button {
+  background-color: #0678e3;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 25px;
+  width: 100px;
+  height: 40px;
+  font-size: 13px;
+}
+
+.header-button:hover {
+  color: whitesmoke;
+  opacity: 0.9;
+}
