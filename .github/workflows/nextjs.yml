@@ -55,12 +55,12 @@ jobs:
           static_site_generator: next
 
       - name: Build with Next.js
-        run: npm next build
+        run: npm run build
 
       - name: Static HTML export with Next.js
-        run: npm next export
+        run: npm run export
 
-      - name: Upload artifact 📡
+      - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./out

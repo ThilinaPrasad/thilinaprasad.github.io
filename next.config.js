@@ -5,8 +5,8 @@ module.exports = {
       "pbs.twimg.com", // Twitter Profile Picture
       "api.microlink.io", // Microlink Image Preview
       "avatars.githubusercontent.com", // GitHub avatars
-      "images.credly.com" // credly images
     ],
+    unoptimized: true
   },
   webpack: (config, { dev, isServer }) => {
     return config;
