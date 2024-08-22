@@ -47,7 +47,7 @@ jobs:
       - name: Install dependencies 🔧
         shell: bash
         if: steps.cache_dependencies.outputs.cache-hit != 'true'
-        run: npm i
+        run: npm i --force
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
