@@ -33,6 +33,10 @@ export default function Container(props) {
       link: "/experience",
     },
     {
+      name: "Education",
+      link: "/education",
+    },
+    {
       name: "Projects",
       link: "/projects",
     },
@@ -41,6 +45,10 @@ export default function Container(props) {
     {
       name: "Experience",
       link: "/experience",
+    },
+    {
+      name: "Education",
+      link: "/education",
     },
     {
       name: "Projects",
