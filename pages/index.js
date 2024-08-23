@@ -36,7 +36,7 @@ export default function Home() {
 
   return (
     <Container
-      title="Thilina J"
+      title="Thilina Jayathilaka"
       description="Personl Website"
     >
       <div className="flex flex-col justify-center items-start max-w-3xl mx-auto mb-6">
