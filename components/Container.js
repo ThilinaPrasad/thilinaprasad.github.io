@@ -29,7 +29,7 @@ export default function Container(props) {
 
   const links = [
     {
-      name: "Experience & Education",
+      name: "Experience",
       link: "/experience",
     },
     {
