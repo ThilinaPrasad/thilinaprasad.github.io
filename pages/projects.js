@@ -59,20 +59,6 @@ export default function projects() {
             colSpan={2}
             tags={["Laravel", "JJQuery", "MySQL"]}
           />
-          <ProjectCard
-            title="Livepin"
-            description="A way to interact for remote teams in their cooperate work."
-            icon="👨‍💻"
-            colSpan={2}
-            tags={["React", "Agora", "AWS Lambda", "Serverless", "WebRTC"]}
-          />
-          <ProjectCard
-            title="Manipulation Detection in Stock Trading"
-            description="Final year research project. A machine learning-aided model to detect anomalies in stock trading data featuring graphical analysis."
-            icon="👨‍💻"
-            colSpan={2}
-            tags={["Python", "Machine Learning", "Flask"]}
-          />
         </div>
 
         {/* 🎶 A music streaming website (like spotify) built using PHP, HTML/CSS, AJAX, JS, jQuery, JSON, mySQL and more. */}
