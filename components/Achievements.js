@@ -47,7 +47,7 @@ const Achievements = () => {
             }
           />
           <AchievementCard
-            title={"Kubernetes Certified (Pending)"}
+            title={"Kubernetes Certified"}
             description={"Certified Kubernetes Application Developer"}
             image={"/certifications/ckad.png"}
             width={100}
