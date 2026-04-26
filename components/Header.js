@@ -43,7 +43,7 @@ const Header = () => {
           </h1>
 
           <p className="text-zinc-600 dark:text-zinc-500">
-            Experienced senior software engineer with 4+ years in the full software development lifecycle. Passionate about secure, cloud-friendly solutions and eager to apply technical and interpersonal skills for impactful results.
+            Backend engineer with 6+ years designing and delivering high-throughput distributed systems at scale. Specialised in Java/Spring microservices, event-driven architectures with Apache Kafka, and cloud-native deployments on AWS and Kubernetes. Proven track record leading engineering teams and driving end-to-end delivery, from system design through production. AWS Certified Solutions Architect (SAA) and Certified Kubernetes Application Developer (CKAD).
           </p>
 
           <div className="flex flex-row flex-wrap mt-4 gap-x-2 gap-y-3">
