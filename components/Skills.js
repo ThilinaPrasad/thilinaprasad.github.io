@@ -31,11 +31,14 @@ const Skills = () => {
   }, []);
 
   const skills = [
-    "Java", "Spring", "Spring JPA", "React", "AWS", "Docker", 
-    "Apache Kafka", "Terraform", "Jenkins", "Maven", "Groovy", 
-    "Ansible", "Angular", "Ionic", "Linux", "TestNG", "JUnit", 
-    "JSP", "MySQL", "Subversion", "Git"
-  ];
+  "Java", "JavaScript", "TypeScript", "Groovy", "SQL",
+  "Spring Boot", "Spring Cloud", "React", "PostgreSQL", "MySQL",
+  "Redis", "Elasticsearch", "Apache Kafka", "Debezium (CDC)",
+  "AWS SQS", "AWS S3", "AWS", "Kubernetes (K8s)", "Docker",
+  "Terraform", "Ansible", "Jenkins", "AWS ECS", "AWS ECR",
+  "AWS SSM", "CodeArtifact", "JUnit", "TestNG", "Mockito",
+  "Git", "Maven", "Subversion", "Linux"
+];
 
 
   return (
