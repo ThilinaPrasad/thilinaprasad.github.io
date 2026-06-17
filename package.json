@@ -26,7 +26,7 @@
     "clsx": "^1.1.1",
     "comma-number": "^2.0.1",
     "date-fns": "^2.19.0",
-    "firebase-admin": "^9.5.0",
+    "firebase-admin": "^12.4.0",
     "framer-motion": "^6.5.1",
     "fs": "^0.0.1-security",
     "gray-matter": "^4.0.2",
