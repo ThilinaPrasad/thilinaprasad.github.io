@@ -11,13 +11,13 @@ import Chat from "@/components/Chat";
 
 function MyApp({ Component, pageProps }) {
   return (
-        <ThemeProvider attribute="class">
-          <MDXProvider components={MDXComponents}>
-            {/* <Banner /> */}
-            <Component {...pageProps} />
-            {/* <Chat /> */}
-          </MDXProvider>
-        </ThemeProvider>
+    <ThemeProvider attribute="class">
+      <MDXProvider components={MDXComponents}>
+        {/* <Banner /> */}
+        <Component {...pageProps} />
+        {/* <Chat /> */}
+      </MDXProvider>
+    </ThemeProvider>
   );
 }
 
