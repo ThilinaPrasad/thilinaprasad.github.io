@@ -37,7 +37,7 @@ export default function Home() {
   return (
     <Container
       title="Thilina Jayathilaka"
-      description="Personl Website"
+      description="Personal website of Thilina Jayathilaka, a backend and cloud engineer and technical lead specialising in Java, Spring, AWS and Kubernetes."
     >
       <div className="flex flex-col justify-center items-start max-w-3xl mx-auto mb-6">
         <Header />
