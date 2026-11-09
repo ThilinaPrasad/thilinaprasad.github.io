@@ -52,9 +52,8 @@ const Achievements = () => {
             image={"/certifications/ckad.png"}
             width={100}
             height={100}
-            link={
-              "https://www.credly.com/badges/9dfbafd4-6fa6-4da6-81c5-e533b3358d1d"
-            }
+            // TODO: supply the Credly badge URL for CKAD. The previous link pointed at the AWS SAA badge.
+            link={undefined}
           />
         </div>
       </div>
