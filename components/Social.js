@@ -32,7 +32,7 @@ const Social = () => {
 
   return (
     <div className="mt-4">
-      <h1 className="font-bold text-2m mb-4">🌐 Social</h1>
+      <h2 className="font-bold text-2m mb-4">🌐 Social</h2>
       <div className="gap-x-2 gap-y-3 flex flex-row flex-wrap">
         <a className="dark:border dark:border-zinc-700 text-gray-700 dark:text-gray-300 dark:bg-transparent rounded-full text-sm border border-gray-200 px-3 py-1 cursor-pointer"
           href="https://www.linkedin.com/in/thilinaprasad/"

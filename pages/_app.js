@@ -9,19 +9,15 @@ import Banner from "@/components/Banner";
 import MDXComponents from "@/components/MDXComponents";
 import Chat from "@/components/Chat";
 
-import { SessionProvider } from "next-auth/react";
-
-function MyApp({ Component, pageProps: { session, ...pageProps } }) {
+function MyApp({ Component, pageProps }) {
   return (
-    <SessionProvider session={session}>
-      <ThemeProvider attribute="class">
-        <MDXProvider components={MDXComponents}>
-          {/* <Banner /> */}
-          <Component {...pageProps} />
-          {/* <Chat /> */}
-        </MDXProvider>
-      </ThemeProvider>
-    </SessionProvider>
+    <ThemeProvider attribute="class">
+      <MDXProvider components={MDXComponents}>
+        {/* <Banner /> */}
+        <Component {...pageProps} />
+        {/* <Chat /> */}
+      </MDXProvider>
+    </ThemeProvider>
   );
 }
 

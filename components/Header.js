@@ -70,6 +70,7 @@ const Header = () => {
               layout="fill"
               className="bg-gray-100 object-contain"
               src="/profile-img.jpg"
+              alt="Portrait of Thilina Jayathilaka"
             />
           </div>
           <div className="z-0">

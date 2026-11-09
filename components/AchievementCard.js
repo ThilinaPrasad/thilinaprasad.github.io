@@ -5,7 +5,7 @@ import { BlurImage } from "./BlurImage";
 import HoverPattern from "./Hover/HoverPattern";
 import Image from "next/image";
 
-const AchievementCard = ({ title, description, image, emoji, height, width, link }) => {
+const AchievementCard = ({ title, description, image, imageAlt, emoji, height, width, link }) => {
     let mouseX = useMotionValue(0);
     let mouseY = useMotionValue(0);
 
@@ -44,6 +44,7 @@ const AchievementCard = ({ title, description, image, emoji, height, width, link
                             height={height}
                             width={width}
                             src={image}
+                            alt={imageAlt || description || ""}
                         />
                     </div> : null}
 
