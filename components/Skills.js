@@ -43,7 +43,7 @@ const Skills = () => {
 
   return (
     <div className="mt-4">
-      <h1 className="font-bold text-2m mb-4">👨‍💻 Skills</h1>
+      <h2 className="font-bold text-2m mb-4">👨‍💻 Skills</h2>
 
       <div className="gap-x-2 gap-y-3 flex flex-row flex-wrap">
         {skills.map((skill) => {

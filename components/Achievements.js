@@ -18,7 +18,7 @@ const Achievements = () => {
 
     return (
       <div className="mt-4">
-        <h1 className="font-bold text-2m">🎓 Certifications</h1>
+        <h2 className="font-bold text-2m">🎓 Certifications</h2>
         <div className="md:grid md:grid-cols-2 gap-x-4">
           {/* <LargeAchievementCard
                 title={'AWS Certified'}
@@ -40,6 +40,7 @@ const Achievements = () => {
             title={"AWS Certified"}
             description={"AWS Certified Solutions Architect – Associate"}
             image={"/certifications/aws.png"}
+            imageAlt={"AWS Certified Solutions Architect Associate badge"}
             width={100}
             height={100}
             link={
@@ -50,6 +51,7 @@ const Achievements = () => {
             title={"Kubernetes Certified"}
             description={"Certified Kubernetes Application Developer"}
             image={"/certifications/ckad.png"}
+            imageAlt={"Certified Kubernetes Application Developer (CKAD) badge"}
             width={100}
             height={100}
             // TODO: supply the Credly badge URL for CKAD. The previous link pointed at the AWS SAA badge.
