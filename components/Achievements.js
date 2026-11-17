@@ -57,12 +57,11 @@ const Achievements = () => {
             // TODO: supply the Credly badge URL for CKAD. The previous link pointed at the AWS SAA badge.
             link={undefined}
           />
-          {/* Not yet earned: shown as in progress. No issue date, expiry, credential ID or verification link until passed. */}
+          {/* TODO: add the issue date and Credly verification link once supplied. */}
           <AchievementCard
             title={"HashiCorp Certified: Terraform Associate (004)"}
-            description={"In progress (not yet earned)"}
             image={"/certifications/terraform-associate.png"}
-            imageAlt={"Terraform Certified Associate badge (certification in progress, not yet earned)"}
+            imageAlt={"HashiCorp Certified: Terraform Associate badge"}
             width={100}
             height={100}
             link={undefined}
