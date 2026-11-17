@@ -63,7 +63,7 @@ const Achievements = () => {
             description={"In progress (not yet earned)"}
             image={"/certifications/terraform-associate.png"}
             imageAlt={"Terraform Certified Associate badge (certification in progress, not yet earned)"}
-            width={82}
+            width={100}
             height={100}
             link={undefined}
           />
